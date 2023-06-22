@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Gallery Single</title>
+  <title>Big Integer Library</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -33,6 +33,9 @@
             width: 100%;
             height: 1000px;
         }
+        .cta-btn{
+          border: none;
+        }
     </style>
 </head>
 
@@ -50,16 +53,15 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="utsavchab.me">Home</a></li>
-          <li><a href="utsavchab.me">About</a></li>
+          <li><a href="https://utsavchab.me">Home</a></li>
+          <li><a href="https://utsavchab.me">About</a></li>
           <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="gallery.html" class="active">LMS Portal</a></li>
               <li><a href="gallery.html">DataPipe</a></li>
               <li><a href="gallery.html">BigInt</a></li>
               <li><a href="gallery.html">Data Analysis Simulator</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
+             
               <!-- <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Sub Menu 1</a></li>
@@ -69,7 +71,7 @@
               </li> -->
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://authproj.utsavchab.me">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -95,7 +97,7 @@
             <h2 class = "space"style="color: #27A776; font-weight : bold;">BIG-INTEGER LIBRARY FOR C++</h2>
             <h3 class="space"><p class="space">Developed a library <i><u>biginteger.h</i></u> to handle Big Integers in C++.</p></h3>
 
-            <a class="cta-btn" href="https://github.com/utsavchab/bigIntegerLib">GitHub Repo</a>
+            <button class="cta-btn" id = "download-lib">Download</button>
 
           </div>
         </div>
@@ -163,7 +165,7 @@
                     <li > C++</li>
                     <li >Object Oriented Programming</li>
                 </ul></li>
-                <li><strong>Project URL</strong> <a href="https://github.com/utsavchab/bigIntegerLib">github repo</a></li>
+                <li><strong>Project URL</strong> <a href="https://github.com/utsavchab/bigIntegerLib" target="_blank"><i class="bi bi-link"></i>&nbsp; GITHUB REPO</a></li>
                 
               </ul>
             </div>
@@ -204,6 +206,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    const downloadButton = document.getElementById('download-lib');
+    const fileURL = 'bigint.zip'; // Replace with the actual file URL
+  
+    downloadButton.addEventListener('click', () => {
+      window.location.href = fileURL;
+    });
+  </script>
+
 
 </body>
 
