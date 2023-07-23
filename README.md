@@ -70,6 +70,4 @@ To use the `bigInt` class, include the relevant class definition in your C++ pro
 
 Feel free to modify and enhance the library as per your requirements.
 
-Happy coding!
-
 
